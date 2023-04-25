@@ -1,0 +1,27 @@
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(17, 19, 20, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.list-item{
+    list-style: none;
+    display: flex;
+}
+
+.list-item>li{
+    padding: 10px;
+}
+
+.img1{
+    width: 40px;
+}
+
+.footer{
+    align-items: center;
+    background: #575454;
+    padding: 10px;
+    font-size: 17px;
+}
