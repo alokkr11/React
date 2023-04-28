@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #282d35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 90px;
+  padding: 30px 25px;
+  justify-content: space-between;
+}
+
+img{
+  width: 60px;
+  padding-right: 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+
+}
+
+nav>div>h3{
+  color: #61dafb;
+  font-size: 22px;
+}
+
+nav>div>h4{
+  color: white;
+  margin-right: auto;
+}
+
+.main{
+  color:white;
+  padding: 57px 27px;
+}
+
+.main-title{
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+  background-image: url(https://www.figma.com/file/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0-10&t=a3e0HXJVH9TsDqUL-4);
+
+}
+
+.main-facts{
+  margin-top: 46px;
+  max-width: 480px;
+}
+
+.main-facts>li{
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main-facts>li::marker{
+  color: #61dafb;
+  font-size: 1.4rem;
+}
